@@ -32,4 +32,3 @@ print('blue' in color1)
 color1.append('white')
 print(color1)
 
-color1.remove([0])

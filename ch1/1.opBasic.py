@@ -25,4 +25,4 @@ print('your name is ' + name)
 print('your name is %s,%d,%f' % (name, age , h))
 #%%
 name = input('Input name :')
-print('your name is' + name)
+print('your name is ' + name)

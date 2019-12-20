@@ -16,12 +16,12 @@ def addition(x, y):
 def multiplication(x, y):
     return x * y
 
-print(addition(10, 5))
-print(multiplication(10, 5))
+# print(addition(10, 5))
+# print(multiplication(10, 5))
     
-#if __name__ == '__main__':
-#    print('-->mainTest1 runs as main..')
-#    print(addition(10, 5))
-#    print(multiplication(10, 5))
-#else:
-#    print('mainTest1 is imported..')
+if __name__ == '__main__':
+    print('-->mainTest1 runs as main..')
+    print(addition(10, 5))
+    print(multiplication(10, 5))
+else:
+    print('mainTest1 is imported..')

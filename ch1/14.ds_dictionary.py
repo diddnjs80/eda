@@ -6,16 +6,30 @@ Created on Sun Nov  3 15:26:38 2019
 """
 
 # empty dictionary
-d1 = ....
-d2 = ....
+d1 = {}
+d2 = dict()
 
-type(d1), d1, type(d2), d2
+print(type(d1), d1, type(d2), d2)
 
 #%%
-info = ........
-info
+info = {1:'kim', 2:'park'}
+print(info)
 
+info[1]='lee'
+print(info)
 
-.......
+#%%
+info = {'name':'kim', 2:'park'}
+print(info)
 
+info['name']='lee'
+print(info)
 
+#%%
+print(info.keys())
+print(info.values())
+print(info.items())
+
+#%%
+for k,v in info.items():
+    print(k,v)
